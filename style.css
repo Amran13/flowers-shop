@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    margin: 0px auto;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color: #fdeef1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header-banner{
+    margin-left: 100px;
+}
+.header-img{
+    padding: 50px;
+}
+.banner-title{
+    font-size: 80px;
+}
+.banner-text{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 32px 0;
+    line-height: 30px;
+}
+
+/* featured section style */
+.feature{
+    margin: 80px auto;
+    width: 1440px;
+    height: 500px;
+    background-color: #fdeef1;
+}
+
+/* insta section style  */
+.insta{
+    margin: 80px auto;
+    width: 1440px;
+}
+.insta-img-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+/* subscribe section style */
+.subscribe{
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    margin: 80px auto;
+    width: 1440px;
+    height: 450px;
+}
+.subscribe-text{
+    padding-top: 122px;
+}
+.input-container{
+    text-align: center;
+}
+.subscribe-input{
+    border-radius: 8px;
+    width: 700px;
+    height: 64px;
+    border: none;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+
+/* footer style  */
+footer{
+    height: 350px;
+    background-color: #111010;
+    padding-top: 122px;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+.footer-text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.bright-text{
+    color: #E55473;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
+
+/* utility Class */
+.btn{
+    background-color: #E55473;
+    border: none;
+    font-weight: 700;
+    color: #ffff;
+    padding: 20px 43px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.section-heading{
+    color: #272727;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.section-text{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 32px 0;
+    line-height: 30px;
+    text-align: center;
+}
